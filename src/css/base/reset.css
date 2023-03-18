@@ -1,0 +1,70 @@
+/* Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.list {
+	list-style: none;
+margin: 0;
+	padding: 0;
+}
+
+.link,
+.logo-link {
+	display: block;
+	text-decoration: none;
+  color:currentColor;
+}
+.link:focus,
+.link:hover {
+	color: var(--pressed-state);
+}
+
+
+button {
+  	color: var(--primari-brend);
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	line-height: 1.5;
+
+	padding: 12px 24px;
+
+	background-color: var(--light);
+	border: 1px solid var(--accent);
+	border-radius: 4px;
+
+	cursor: pointer;
+
+	transition-property: background-color, color, border-color, box-shadow;
+	transition-duration: var(--transition-time);
+	transition-timing-function: var(--timing-funcion);
+
+}
+
+button:focus,
+button:hover {
+	background-color: var(--pressed-state);
+	color: var(--white);
+	border-color: var(--pressed-state);
+	box-shadow: 0px 2px 2px 0px #0000001f, 0px 2px 1px 0px #00000014,
+		0px 3px 1px 0px #0000001a;
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

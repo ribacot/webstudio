@@ -1,0 +1,49 @@
+.list-customers {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: var(--margin-gap);
+	row-gap: var(--margin-gap-row);
+}
+
+.item-customers {
+	width: calc((100% - var(--margin-gap)) / 2);
+}
+@media screen and (min-width: 768px) {
+	.item-customers {
+		width: calc((100% - 2 * var(--margin-gap) - 186px) / 3);
+	}
+}
+@media screen and (min-width: 1200px) {
+	.item-customers {
+		width: calc((100% - 5 * var(--margin-gap)) / 6);
+	}
+}
+
+.link-customers {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	min-height: 88px;
+
+	border: 1px solid var(--subtitl-text);
+	border-radius: 4px;
+	color: var(--subtitl-text);
+
+	transition-property: border-color, color;
+	transition-duration: var(--timing-funcion);
+	transition-timing-function: var(--timing-funcion);
+}
+
+.icon-customers {
+	fill: currentColor;
+	width: 105px;
+	height: 56px;
+}
+
+.link-customers:hover,
+.link-customers:focus {
+	border-color: var(--pressed-state);
+	color: var(--pressed-state);
+}

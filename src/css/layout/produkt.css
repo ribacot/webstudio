@@ -1,0 +1,21 @@
+/* produkt */
+.produkt {
+	padding-top: 0;
+}
+@media screen and (max-width: 1199px) {
+	.produkt {
+		display: none;
+	}
+}
+
+.list-produkt {
+	display: flex;
+	margin-left: calc(-1 * var(--margin-gap));
+}
+
+.list-produkt > .item {
+	flex-basis: calc((100% - 2 * var(--margin-gap)) / 3);
+	margin-left: var(--margin-gap);
+
+	border: var(--accent) solid 1px;
+}

@@ -1,0 +1,29 @@
+.section-title {
+  color: var(--dark);
+  font-size: 36px;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+
+  margin-top: 0;
+  margin-bottom: 72px;
+}
+
+.section-subtitle {
+  color: var(--dark);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.section-text {
+  color: var(--dark);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}

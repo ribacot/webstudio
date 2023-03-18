@@ -4,21 +4,23 @@
   | default @import url()
   |============================
 */
-@import url('./reset.css');
-@import url('./header.css');
+@import url('./utils/variebles.css');
+@import url('./utils/visually-hidden.css');
+@import url('./base/common.css');
+@import url('./base/reset.css');
+@import url('./base/document_text.css');
+@import url('./components/container.css');
+@import url('./components/logo.css');
+@import url('./components/modal.css');
+@import url('./components/modal-form.css');
+@import url('./layout/header.css');
+@import url('./layout/herp.css');
+@import url('./layout/features.css');
+@import url('./layout/produkt.css');
+@import url('./layout/team.css');
+@import url('./layout/customers.css');
+@import url('./layout/footer.css');
+@import url('./layout/portfolio.css');
+/* @import url('./header.css');
+@import url('./header.css'); */
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}

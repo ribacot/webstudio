@@ -1,0 +1,93 @@
+.hero {
+	text-align: center;
+	max-width: 1440px;
+	height: 432px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 112px;
+	padding-top: 112px;
+
+	background-color: var(--hero-background);
+	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+		url(../../img/webstudio/hero/mobile/hero-bg-428-min.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+	.hero {
+		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+			url(../../img/webstudio/hero/mobile/hero-bg-428@2x-min.jpg);
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.hero {
+		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+			url(../../img/webstudio/hero/tablet/hero-bg-768-min.jpg);
+		height: 436px;
+	}
+
+	@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+		.hero {
+			background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+				url(../../img/webstudio/hero/tablet/hero-bg-768@2x-min.jpg);
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.hero {
+		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+			url(../../img/webstudio/hero/desktop/hero-bg-1440-min.jpg);
+		height: 600px;
+		padding-top: 188px;
+		padding-bottom: 188px;
+	}
+
+	@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+		.hero {
+			background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+				url(../../img/webstudio/hero/desktop/hero-bg-1440@2x-min.jpg);
+		}
+	}
+}
+
+.hero-title {
+	color: var(--white);
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+
+	max-width: 320px;
+	margin-top: 0;
+	margin-bottom: 72px;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+	.hero-title {
+		font-size: 56px;
+		line-height: 1.07;
+		max-width: 496px;
+		margin-bottom: 36px;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.hero-title {
+		margin-bottom: 48px;
+	}
+}
+
+.hero-btn {
+	color: var(--white);
+	background-color: var(--primari-brend);
+
+	min-width: 169px;
+	padding: 16px 32px;
+
+	border-radius: 4px;
+	border-color: var(--primari-brend);
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
