@@ -14,13 +14,14 @@
 @import url('./components/modal.css');
 @import url('./components/modal-form.css');
 @import url('./layout/header.css');
-@import url('./layout/herp.css');
+@import url('./layout/hero.css');
 @import url('./layout/features.css');
 @import url('./layout/produkt.css');
 @import url('./layout/team.css');
 @import url('./layout/customers.css');
 @import url('./layout/footer.css');
 @import url('./layout/portfolio.css');
+@import url('./components/scroll_up.css');
 /* @import url('./header.css');
 @import url('./header.css'); */
 
